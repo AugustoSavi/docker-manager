@@ -1,0 +1,12 @@
+spring:
+  applicationname: manager
+
+docker:
+  socket:
+    path: unix:///var/run/docker.sock
+
+springdoc:
+  api-docs:
+    path: "/api-docs"
+  swagger-ui:
+    path: "/docs.html"
