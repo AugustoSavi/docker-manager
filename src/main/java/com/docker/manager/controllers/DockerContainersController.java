@@ -2,12 +2,14 @@ package com.docker.manager.controllers;
 
 import com.docker.manager.services.DockerService;
 import com.github.dockerjava.api.model.Container;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
 @RequestMapping("/api/containers")
+@Tag(name="Containers", description="Operations related to Docker containers")
 public class DockerContainersController {
 
     private final DockerService dockerService;
