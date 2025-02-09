@@ -1,4 +1,10 @@
-# Docker Manager - README
+<div align="center">
+  <h1>Docker Manager</h1>
+</div>
+
+<p align="center">
+  <img src=".github/resources/image-readme.png" alt="Descrição da imagem" width="1000">
+</p>
 
 ## Configuração do Docker
 

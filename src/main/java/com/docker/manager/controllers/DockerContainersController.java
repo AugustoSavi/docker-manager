@@ -39,8 +39,8 @@ public class DockerContainersController {
     }
 
     @PostMapping
-    public void createContainer(@RequestParam String imameName) {
-        dockerService.createContainer(imameName);
+    public void createContainer(@RequestParam String imageName) {
+        dockerService.createContainer(imageName);
     }
 
 }
